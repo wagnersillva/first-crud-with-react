@@ -1,0 +1,106 @@
+.btn {
+    margin-left: 0px;
+}
+.listUsers{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.card {
+    margin: 5px 1% 0px 0px;
+    width: 300px;
+    width: 30vw;
+    height: 200px;
+    overflow: hidden;
+    font-size: 1em;
+}
+
+  @media( max-width:1095px) and (min-width:860px) {
+    .card {
+        margin: 2.5px 10px 0px 0px;
+        width: 400px;
+        width: 29vw;
+        height: 200px;
+        overflow: hidden;
+        font-size: 0.5em;
+        font-size: 1em;
+    }
+} 
+
+ @media( max-width:860px) and (min-width:840px){
+    .card {
+        margin: 2.5px 10px 0px 0px;
+        width: 600px;
+        width: 29vw;
+        height: 200px;
+        overflow: hidden;
+        font-size: 0.5em;
+        font-size: 0.8em;
+    }
+}
+@media( max-width:840px) and (min-width:685px){
+    .card {
+        margin: 2.5px 10px 0px 0px;
+        width: 100vw;
+        width: 45vw;
+        width: 40vw;
+        height: 200px;
+        overflow: hidden;
+        font-size: 0.9em;
+    }
+    .listUsers{justify-content: center;}
+    .btn{margin-left: 3.5%;}
+}
+@media( max-width:685px) and (min-width:560px){
+    .card {
+        margin: 2.5px 5px 0px 0px;
+        width: 100vw;
+        width: 45vw;
+        width: 42vw;
+        height: 200px;
+        overflow: hidden;
+        font-size: 0.9em;
+    }
+}
+
+@media( max-width:560px){
+    .card {
+        margin: 2.5px 10px 0px 0px;
+        width: 100vw;
+        width: 45vw;
+        width: 80vw;
+        height: 200px;
+        overflow: hidden;
+        font-size: 1em;
+    }
+} 
+
+a {
+    text-decoration: none;
+    color:#fff;
+}
+
+a:hover {
+    color:rgb(71, 163, 68);
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.butaoDelete {
+    background-color: rgba(0, 0, 0, 0);
+    color:#fff;
+    border: none;
+    outline: none;
+}
+.butaoDelete:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(163, 68, 68);
+    border: none;
+}
+.butaoDelete:focus {outline:0;}
+

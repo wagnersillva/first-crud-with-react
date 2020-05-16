@@ -1,0 +1,25 @@
+/* .app {
+    display: grid;
+    container
+    direction="column"
+    justify="center"
+    alignItems="stretch"
+} */
+
+
+.app {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    
+}
+
+/* .divContent {
+    min-height: 90vh;
+} */
+
+/* div.app {
+    position: relative;
+    height: 100vh;
+} */

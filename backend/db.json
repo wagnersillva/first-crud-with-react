@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "name": "adriana da silva alves",
+      "email": "adsilva2535@gmail.com",
+      "curso": "estilista",
+      "semestre": "1",
+      "password": "1231",
+      "id": 2
+    },
+    {
+      "name": "JOSE SELMO DA SILVA",
+      "email": "JOSESEOLMASILVA@GMAIL.COM",
+      "curso": "COMANDOS",
+      "semestre": "1",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "wagner ",
+      "email": "wagner@email.com",
+      "curso": "ads",
+      "semestre": "1",
+      "password": "12345678*",
+      "id": 4
+    }
+  ],
+  "courses": [
+    {
+      "curso": "Matematica",
+      "professor": "Wagner",
+      "duracao": 150,
+      "id": 1
+    },
+    {
+      "curso": "Portugues",
+      "professor": "Carlos",
+      "duracao": 150,
+      "id": 2
+    },
+    {
+      "curso": "Fisica",
+      "professor": "Alcart",
+      "duracao": 150,
+      "id": 3
+    },
+    {
+      "curso": "Filosofia",
+      "professor": "Albert",
+      "duracao": 150,
+      "id": 4
+    }
+  ]
+}
